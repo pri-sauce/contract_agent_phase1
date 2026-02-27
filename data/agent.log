@@ -1,0 +1,20 @@
+2026-02-26 11:25:24.380 | INFO     | core.llm:check_connection:34 - Ollama connected. Available models: ['nomic-embed-text:latest', 'llama3.2:3b', 'mistral:7b', 'qwen2.5-coder:0.5b', 'qwen2.5-coder:14b']
+2026-02-26 11:25:24.380 | SUCCESS  | core.llm:check_connection:44 - All required models available.
+2026-02-26 11:25:24.383 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-02-26 14:33:02.911 | INFO     | ingestion.parser:parse:51 - Parsing sample_nda_demo.txt (.txt)
+2026-02-26 14:33:02.924 | INFO     | ingestion.segmenter:segment:107 - Segmenting 'sample_nda_demo.txt' (371 words)
+2026-02-26 14:33:02.925 | SUCCESS  | ingestion.segmenter:segment:124 - Segmented into 12 clauses
+2026-02-26 14:33:02.927 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-02-26 14:34:30.567 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:35:20.596 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:36:13.262 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:37:43.061 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:39:53.005 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:41:31.945 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:43:03.233 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:43:37.590 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:44:21.037 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:45:00.636 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:45:47.649 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:46:32.688 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-26 14:46:50.221 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
