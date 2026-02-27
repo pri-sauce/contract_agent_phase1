@@ -18,3 +18,21 @@
 2026-02-26 14:45:47.649 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
 2026-02-26 14:46:32.688 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
 2026-02-26 14:46:50.221 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-02-27 12:26:24.636 | INFO     | ingestion.parser:parse:51 - Parsing sample_nda_demo.txt (.txt)
+2026-02-27 12:26:24.641 | INFO     | ingestion.segmenter:segment:107 - Segmenting 'sample_nda_demo.txt' (371 words)
+2026-02-27 12:26:24.642 | SUCCESS  | ingestion.segmenter:segment:124 - Segmented into 12 clauses
+2026-02-27 12:26:24.644 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-02-27 12:27:56.454 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:28:53.128 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:29:31.071 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:30:11.172 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:31:01.898 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:31:47.326 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:32:51.890 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:33:47.243 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:34:37.446 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:35:20.220 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:36:09.515 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:36:53.348 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-02-27 12:37:09.560 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-02-27 12:38:38.100 | INFO     | utils.report_exporter:export_markdown:123 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\processed\sample_nda_review.md

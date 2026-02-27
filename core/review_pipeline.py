@@ -137,8 +137,9 @@ class ReviewPipeline:
             executive_summary=exec_summary,
         )
 
-        console.print(f"\n[bold green]✅ Review Complete[/bold green]")
-        console.print(f"Overall Risk: [bold {'red' if report.overall_risk == 'HIGH' else 'yellow' if report.overall_risk == 'MEDIUM' else 'green'}]{report.overall_risk}[/bold]")
+        color = 'red' if report.overall_risk == 'HIGH' else 'yellow' if report.overall_risk == 'MEDIUM' else 'green'
+        console.print(f"\n[bold green]Review Complete[/bold green]")
+        console.print(f"Overall Risk: [{color}]{report.overall_risk}[/{color}]")
         console.print(f"High: {report.high_risk_count} | Medium: {report.medium_risk_count} | Low: {report.low_risk_count} | Acceptable: {report.acceptable_count}")
 
         return report
