@@ -1,0 +1,126 @@
+# ============================================================
+#  Company Contract Playbook
+#  Edit this file to update your legal team's positions.
+#  This is loaded into the knowledge base for RAG in Phase 2.
+# ============================================================
+
+company_name: "Your Company Name"
+last_updated: "2025-01-01"
+legal_contact: "legal@yourcompany.com"
+
+# ------------------------------------------------------------------
+# Clause-by-Clause Positions
+# ------------------------------------------------------------------
+
+clauses:
+  limitation_of_liability:
+    position: "We require mutual limitation of liability capped at fees paid in the 12 months prior to the claim."
+    must_have:
+      - "Cap must be mutual (applies to both parties equally)"
+      - "Cap must be defined as total fees paid in prior 12 months"
+      - "Carve-outs required for: IP infringement, confidentiality breach, gross negligence, willful misconduct, fraud"
+    reject_if:
+      - "Uncapped liability on our side"
+      - "Consequential damages not excluded"
+      - "Cap lower than 3 months of fees"
+    acceptable_fallback: "Cap of 6 months fees with mutual carve-outs for IP and confidentiality."
+
+  indemnification:
+    position: "Mutual indemnification limited to each party's own breach or negligence."
+    must_have:
+      - "Must be mutual"
+      - "Limited to claims arising from indemnifying party's own acts"
+      - "Requires prompt notice of claims"
+      - "Right to control defense with reasonable cooperation"
+    reject_if:
+      - "One-sided indemnification only against us"
+      - "Indemnification for third-party claims without limitation"
+      - "No carve-out for indemnitee's own negligence"
+    acceptable_fallback: "Mutual indemnification for IP infringement and data breach claims only."
+
+  confidentiality:
+    position: "Standard mutual NDA with 3-year post-term obligation."
+    must_have:
+      - "Mutual obligations (both parties bound)"
+      - "Standard exceptions: publicly available, independently developed, received from third party"
+      - "Return or destruction of confidential information on termination"
+    reject_if:
+      - "Perpetual confidentiality obligation (we accept max 5 years)"
+      - "No exceptions for publicly available information"
+      - "Includes information we already knew"
+    acceptable_fallback: "5-year confidentiality obligation with standard carve-outs."
+
+  intellectual_property:
+    position: "We retain ownership of all IP we develop. Client gets license for deliverables only."
+    must_have:
+      - "Clear definition of what constitutes our background IP"
+      - "License granted to client is limited and non-exclusive"
+      - "We retain ownership of tools, methodologies, general know-how"
+    reject_if:
+      - "Broad work-for-hire language that assigns all IP to client"
+      - "Assignment of pre-existing IP or background IP"
+      - "Client owns improvements to our platform or tools"
+    acceptable_fallback: "Custom deliverables may be assigned to client if fully paid, excluding our platform and background IP."
+
+  term_termination:
+    position: "1-year initial term with 90-day notice for termination for convenience."
+    must_have:
+      - "Right to terminate for cause with 30-day cure period"
+      - "Termination for insolvency or change of control"
+    reject_if:
+      - "No termination for convenience right"
+      - "Less than 30-day cure period for breach"
+      - "Auto-renewal without adequate notice period (require min 60 days)"
+    acceptable_fallback: "60-day notice for termination for convenience is acceptable."
+
+  payment:
+    position: "Net 30 payment terms. Late fees at 1.5% per month."
+    must_have:
+      - "Clear payment milestones or schedule"
+      - "Late payment interest clause"
+      - "Right to suspend services for non-payment after 30-day notice"
+    reject_if:
+      - "Net 90 or longer payment terms"
+      - "No interest on late payments"
+      - "Client right to set-off without notice"
+    acceptable_fallback: "Net 45 is acceptable for enterprise clients."
+
+  governing_law:
+    position: "Prefer: Delaware law, courts of Delaware."
+    acceptable: ["Delaware", "New York", "California", "England and Wales"]
+    reject_if:
+      - "Jurisdiction with which we have no presence"
+      - "Mandatory arbitration without opt-out for injunctive relief"
+    acceptable_fallback: "Client's home jurisdiction is acceptable for clients in acceptable list above."
+
+  data_privacy:
+    position: "We comply with GDPR and CCPA. DPA required for any personal data processing."
+    must_have:
+      - "Data Processing Agreement (DPA) if personal data involved"
+      - "Clear definition of data controller vs processor roles"
+      - "Security measures and breach notification requirements"
+    reject_if:
+      - "Transfer of personal data to countries without adequacy decisions without SCCs"
+      - "No data breach notification obligation"
+      - "Unlimited data retention"
+
+# ------------------------------------------------------------------
+# Deal Type Specific Notes
+# ------------------------------------------------------------------
+
+deal_types:
+  saas:
+    extra_requirements:
+      - "SLA with uptime guarantee (minimum 99.5%)"
+      - "Data portability on termination"
+      - "Security audit rights"
+
+  professional_services:
+    extra_requirements:
+      - "Change order process for scope changes"
+      - "Acceptance criteria for deliverables"
+
+  nda:
+    extra_requirements:
+      - "Purpose limitation clause"
+      - "2-year maximum term unless special circumstances"

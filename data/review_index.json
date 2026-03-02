@@ -1,0 +1,20 @@
+{
+  "layer_nda_2026-03-02": {
+    "contract_id": "layer_nda_2026-03-02",
+    "filename": "layer_nda.pdf",
+    "reviewed_at": "2026-03-02T17:41:53.193761",
+    "overall_risk": "HIGH",
+    "recommendation": "Negotiate before signing",
+    "contract_type": "Employment Agreement",
+    "parties": [
+      "ALPHATECH SOLUTIONS PRIVATE LIMITED",
+      "MS. PRIYA SHARMA"
+    ],
+    "governing_law": "India or null",
+    "total_clauses": 10,
+    "high_risk_count": 3,
+    "medium_risk_count": 0,
+    "low_risk_count": 7,
+    "json_path": "C:\\Users\\KIIT01\\Documents\\office\\contract_agent\\data\\reviews\\layer_nda_2026-03-02.json"
+  }
+}
