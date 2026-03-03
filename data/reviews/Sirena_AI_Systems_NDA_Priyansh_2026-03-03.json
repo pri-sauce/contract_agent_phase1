@@ -1,0 +1,63 @@
+{
+  "filename": "Sirena_AI_Systems_NDA_Priyansh.pdf",
+  "reviewed_at": "2026-03-03T21:01:45.276162",
+  "overall_risk": "HIGH",
+  "recommendation": "Negotiate before signing",
+  "metadata": {
+    "contract_type": "NDA",
+    "parties": [
+      "SIRENA AI SYSTEMS PRIVATE LIMITED",
+      "the Disclosing Party"
+    ],
+    "effective_date": null,
+    "expiration_date": null,
+    "governing_law": "null",
+    "contract_value": "null",
+    "auto_renewal": null,
+    "notice_period_days": null
+  },
+  "summary": {
+    "total_clauses": 2,
+    "high_risk": 1,
+    "medium_risk": 0,
+    "low_risk": 1,
+    "acceptable": 0
+  },
+  "executive_summary": "**Executive Summary**\n\nThis Non-Disclosure Agreement (NDA) review identified a single High Risk Issue and no Medium Risk Issues.\n\n**Overall Contract Risk Assessment**\nThe contract's governing law is null, which may indicate a lack of jurisdictional clarity. However, this issue does not appear to pose an immediate risk, as the parties are willing to proceed without specifying a governing law. The NDA itself contains a one-sided indemnification clause, which may expose SIRENA AI SYSTEMS PRIVATE LIMITED (the Disclosing Party) to unlimited liability in case of third-party claims.\n\n**Most Critical Issues Requiring Attention Before Signing**\nThe primary concern is the one-sided indemnification clause, which only protects the company against claims made by the recipient. This may not provide adequate protection for the company, potentially exposing it to unlimited liability. The clause states: \"We shall indemnify and hold harmless the Recipient...\". This language appears to shift the risk entirely onto the Disclosing Party.\n\n**Key Negotiation Priorities**\nTo mitigate this risk, we recommend negotiating the following changes:\n\n* Add a reciprocal indemnification provision to protect both parties.\n* Specify an upper cap on the amount of liability (e.g., \"reasonable amount\" or a specific fee-based cap).\n* Consider adding a notice period for termination or breach.\n\n**Recommendation**\nBased on the identified High Risk Issue, we strongly recommend that SIRENA AI SYSTEMS PRIVATE LIMITED negotiates these changes before signing the contract. Signing as-is may expose the company to significant financial and legal risks.",
+  "clause_reviews": [
+    {
+      "clause_id": "clause_002",
+      "number": "MUTUAL CONFIDENTIALITY AND NONDISCLOSURE AGREEMENT",
+      "heading": "Each undersigned party (the \"Receiving Party\") understands that the other party (the",
+      "clause_type": "payment",
+      "risk_level": "LOW",
+      "issues": [
+        "Lack of clear payment milestones or schedule. — This clause does not specify when payments are due, which could lead to confusion and disputes over late fees.",
+        "No right to suspend services for non-payment after a reasonable notice period. — The clause should specify a longer notice period to give the client sufficient time to make payments, reducing the risk of service suspension disputes.",
+        "Client right to set-off without notice. — This clause allows the client to offset their account balance against the company's claims, which could lead to disputes and reduced payment amounts.",
+        "No provision for equitable relief in case of breach. — The clause should explicitly state that equitable relief is available in case of breach, providing a clear remedy for the company.\n\n**"
+      ],
+      "redline_suggestion": "**\n\n- REPLACE: \"Net 30 payment terms\"\nWITH: \"Payments are due within 30 days of invoice date\"\n\n**",
+      "reasoning": "**\nThe identified issues highlight the need for clearer payment terms, more comprehensive dispute resolution mechanisms, and explicit provisions for equitable relief. By addressing these concerns, the contract can better protect both parties' interests and reduce the risk of disputes.",
+      "original_text": "Each undersigned party (the \"Receiving Party\") understands that the other party (the \n\"Disclosing Party\"), through itself or its authorized representatives, has disclosed or may disclose \ninformation relating to the Disclosing Party's business (including, without limitation, business terms, \nbusiness plans, financial statements, financial terms, financing plans, products, formulas, processes, \nprocedures, operations manuals, customer contracts, databases, designs, specifications, intellectual \np"
+    },
+    {
+      "clause_id": "clause_003",
+      "number": "SIRENA AI SYSTEMS PRIVATE LIMITED",
+      "heading": "By",
+      "clause_type": "general",
+      "risk_level": "HIGH",
+      "issues": [
+        "One-sided indemnification only against us — The clause may not provide adequate protection for the company, potentially exposing it to unlimited liability.",
+        "Indemnification for third-party claims without limitation",
+        "No carve-out for indemnitee's own negligence — The clause may not provide sufficient protection for the company in cases where its own negligence is involved.",
+        "Transfer of personal data to countries without adequacy decisions without SCCs",
+        "No data breach notification obligation",
+        "Unlimited data retention — **"
+      ],
+      "redline_suggestion": "**\nREPLACE: \"only against us\"\nWITH: \"mutual\"",
+      "reasoning": "The identified issues highlight potential weaknesses in the indemnification clause, which may expose the company to significant financial risks. The lack of a carve-out for indemnitee's own negligence and the absence of specific security measures and breach notification requirements are also concerning. While some clauses related to data privacy were not flagged as issues, the presence of one-sided indemnification and unlimited data retention raises red flags that require attention.",
+      "original_text": "By \nName: Hariharan Bojan \nTitle: CEO \n \n \nBy \nName: Priyansh Srivastava \nTitle: Intern - AI \n \n \n \n \nSirena AI Systems Private Limited \nAddress : Sirena R&D Center, GITAM University,NH 207, Nagadenehalli, taluk, Doddaballapura, Bengaluru, Karnataka 562163 \nWebsite : www.sirenatech.com | Email : info@sirenatech.com | CIN : U26209KA2025PTC212465"
+    }
+  ]
+}
