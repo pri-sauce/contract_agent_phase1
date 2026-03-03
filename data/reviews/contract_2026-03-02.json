@@ -1,0 +1,272 @@
+{
+  "filename": "contract.pdf",
+  "reviewed_at": "2026-03-02T22:05:17.375012",
+  "overall_risk": "HIGH",
+  "recommendation": "Negotiate before signing",
+  "metadata": {
+    "contract_type": "MSA (Master Service Agreement)",
+    "parties": [
+      "Company A",
+      "Company B"
+    ],
+    "effective_date": "20??-??-?",
+    "expiration_date": null,
+    "governing_law": "State/Country",
+    "contract_value": null,
+    "auto_renewal": null,
+    "notice_period_days": null
+  },
+  "summary": {
+    "total_clauses": 16,
+    "high_risk": 6,
+    "medium_risk": 3,
+    "low_risk": 7,
+    "acceptable": 0
+  },
+  "executive_summary": "**Executive Summary**\n\nThis Master Service Agreement (MSA) review identified 6 High Risk Issues, 3 Medium Risk Issues, and numerous ACCEPTABLE clauses. The overall contract risk assessment indicates that the MSA contains significant provisions that require attention to mitigate potential financial and legal harm.\n\nThe top High Risk Issues include:\n\n* Lack of mutual indemnification for claims arising from both parties' breaches or negligence (PARTIES AND RECITALS)\n* Unclear scope definition for IT support services\n* Lack of clear payment milestones or schedule\n* Insufficient termination notice period for the Service Provider\n* Lack of mutual indemnification for third-party claims\n* Inadequate carve-out for the Service Provider's background intellectual property\n\nThese High Risk Issues may lead to misunderstandings, misinterpretations, and significant financial or legal consequences if left unaddressed. The Medium Risk Issues, while not as severe, still warrant attention to ensure a balanced agreement.\n\n**Recommendation**\n\nBased on this review, we recommend that Company A **Negotiate before signing** the MSA. While some clauses are ACCEPTABLE, the High Risk Issues identified pose significant risks that require careful consideration and negotiation to mitigate. By negotiating these provisions, Company A can ensure a more balanced agreement that protects its interests while maintaining a collaborative relationship with Company B.",
+  "clause_reviews": [
+    {
+      "clause_id": "clause_001",
+      "number": "SERVICE AGREEMENT",
+      "heading": "THIS SERVICE AGREEMENT (this \"Agreement\") is made and entered",
+      "clause_type": "general",
+      "risk_level": "LOW",
+      "issues": [
+        "One-sided indemnification only against the Service Provider. — If signed as-is, the Client may not be able to seek indemnification for claims arising from their own breach or negligence.",
+        "Indemnification for third-party claims without limitation.",
+        "No carve-out for indemnitee's own negligence. — **RISK_LEVEL:** MEDIUM\n\n**"
+      ],
+      "redline_suggestion": "**\nREPLACE: \"only against us\"\nWITH: \"mutual\"\n\n**",
+      "reasoning": "**\nThe clause currently only provides indemnification to the Service Provider, which may not be sufficient for the Client's protection. Adding a mutual indemnification provision would provide more balance and fairness in the agreement. However, it is still important to note that the current clause does not explicitly address third-party claims or indemnitee's own negligence.",
+      "original_text": "THIS SERVICE AGREEMENT (this \"Agreement\") is made and entered\ninto as of the [￿] day of [￿], 20[￿] (the \"Effective Date\"), by and between:\n[￿], a company duly organized and existing under the laws of [￿], with its\nregistered oﬀice at [￿] and company registration number [￿] (the \"Service\nProvider\"); and\n[￿], a company duly organized and existing under the laws of [￿], with its regis-\ntered oﬀice at [￿] and company registration number [￿] (the \"Client\").\nEach of the Service Provider and the Client"
+    },
+    {
+      "clause_id": "clause_002",
+      "number": "1",
+      "heading": "PARTIES AND RECITALS",
+      "clause_type": "general",
+      "risk_level": "HIGH",
+      "issues": [
+        "Lack of mutual indemnification — This clause does not explicitly state that both parties will indemnify each other for claims arising from their respective breaches or negligence.",
+        "No clear definition of data controller vs processor roles — (No second issue found)\n\n**"
+      ],
+      "redline_suggestion": "**\nREPLACE: \"The Parties to this Agreement are the Service Provider and the Client, as identified above.\"\nWITH: \"the parties mutually agree to indemnify each other for claims arising from their respective breaches or negligence\"\n\n**",
+      "reasoning": "**\nThis clause lacks mutual indemnification, which is a critical component of a fair contract. The absence of clear data controller vs processor roles also raises concerns about the proper handling of personal data. To address these issues, I recommend replacing the existing clause with a revised version that explicitly states mutual indemnification and defines the roles of the parties involved in data processing.",
+      "original_text": "1.1 Parties\nThe Parties to this Agreement are the Service Provider and the\nClient, as identified above.\n1.2 Recitals"
+    },
+    {
+      "clause_id": "clause_003",
+      "number": "WHEREAS",
+      "heading": "of providing information technology (\"IT\") support services, including but not",
+      "clause_type": "general",
+      "risk_level": "HIGH",
+      "issues": [
+        "** Lack of clear scope definition for IT support services\n  **EVIDENCE**: \"of providing information technology (\"IT\") support services, including but not\"\n  **IMPACT**: This clause may lead to misunderstandings about the scope of work and potential disputes over what services are included.\n- **ISSUE:** No specific notice period for termination or changes to the scope of work\n  **EVIDENCE**: None\n  **IMPACT**: This lack of clarity may result in delayed or costly negotiations if either party wants to terminate or modify the agreement.\n- **ISSUE:** Broad language that encompasses a wide range of services without clear boundaries\n  **EVIDENCE**: \"limited to troubleshooting, system maintenance, software updates, network man-\n  **IMPACT**: This broad scope may lead to over-delivery or under-delivery of services, potentially causing financial or reputational harm.\n- **ISSUE:** No definition of what constitutes \"background IP\"\n  **EVIDENCE**: None\n  **IMPACT**: This lack of clarity may result in disputes over ownership and control of intellectual property developed during the project.\n\n**"
+      ],
+      "redline_suggestion": "**\nREPLACE: \"of providing information technology (\"IT\") support services, including but not\"\nWITH: \"for a period of [12 months] from the commencement date\"\n\n**",
+      "reasoning": "**\nThe clause lacks clear scope definition, notice periods, and boundaries for IT support services. While the broad language may be acceptable in some contexts, it is essential to define the scope explicitly to avoid misunderstandings. The absence of specific notice periods and background IP definitions raises concerns about potential disputes over termination or intellectual property ownership. By adding a specific time frame and clarifying the scope, this clause can be improved to reduce the risk of misinterpretation and ensure a more mutually beneficial agreement.",
+      "original_text": "of providing information technology (\"IT\") support services, including but not\nlimited to troubleshooting, system maintenance, software updates, network man-\nagement, and related advisory services;"
+    },
+    {
+      "clause_id": "clause_004",
+      "number": "WHEREAS",
+      "heading": "tain IT support services as described herein, and the Service Provider desires",
+      "clause_type": "general",
+      "risk_level": "HIGH",
+      "issues": [
+        "Lack of clear payment milestones or schedule — The clause does not specify a clear payment schedule, which may lead to misunderstandings about when payments are due.",
+        "No late payment interest clause",
+        "Right to suspend services for non-payment after 30-day notice is missing — REDBLINES:\nREPLACE: \"all upon and subject to the terms and conditions set forth in this Agreement;\"\nWITH: \"in accordance with the payment schedule outlined below, which includes due dates of [insert specific dates].\"\nREPLACE: None\nWITH: \"late fees at 1.5% per month\" is not present; however, a standard late fee clause should be included.\nREPLACE: None\nWITH: A right to suspend services for non-payment after 30-day notice should be explicitly stated."
+      ],
+      "redline_suggestion": "",
+      "reasoning": "The primary issue with this clause is the lack of clear payment milestones or schedule. Including a specific payment schedule would help prevent misunderstandings about when payments are due. Additionally, including late payment interest and a right to suspend services for non-payment would provide more clarity on the terms of the agreement.",
+      "original_text": "tain IT support services as described herein, and the Service Provider desires\nto provide such services to the Client, all upon and subject to the terms and\nconditions set forth in this Agreement;"
+    },
+    {
+      "clause_id": "clause_005",
+      "number": "WHEREAS",
+      "heading": "the provision of such services by the Service Provider to the Client;",
+      "clause_type": "general",
+      "risk_level": "LOW",
+      "issues": [
+        "Lack of mutual indemnification for claims arising from Service Provider's own acts — If signed as-is, the Client may not be able to seek indemnification for claims related to the Service Provider's negligence or breach.",
+        "No requirement for prompt notice of claims — If signed as-is, the Client may not be able to bring a timely claim against the Service Provider.",
+        "No carve-out for Service Provider's own negligence — If signed as-is, the Client may be liable for claims related to the Service Provider's own negligence or breach.\n\n**RISK_LEVEL:** MEDIUM\n\n**"
+      ],
+      "redline_suggestion": "**\n\n- REPLACE: \"NOW, THEREFORE, in consideration of the mutual covenants and agree-\nments contained herein, and for other good and valuable consideration, the\"\nWITH: \"NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the Parties acknowledge that prompt notice is required in the event of a claim.\"\n\n**",
+      "reasoning": "** The clause lacks essential elements of mutual indemnification, prompt notice, and carve-outs. Addressing these issues will provide clarity and protection for both parties.",
+      "original_text": "the provision of such services by the Service Provider to the Client;\nNOW, THEREFORE, in consideration of the mutual covenants and agree-\nments contained herein, and for other good and valuable consideration, the\nreceipt and suﬀiciency of which are hereby acknowledged, the Parties agree as\nfollows:"
+    },
+    {
+      "clause_id": "clause_006",
+      "number": "2",
+      "heading": "DEFINITIONS",
+      "clause_type": "definitions",
+      "risk_level": "MEDIUM",
+      "issues": [
+        "Lack of clear definition for \"Background IP\" — The clause does not provide sufficient clarity on what constitutes the Service Provider's background intellectual property, potentially leading to disputes over ownership and control.",
+        "Broad scope of \"Force Majeure Event\" protection — The clause provides broad protection for Force Majeure Events, which could lead to excessive delays and disruptions in service delivery.",
+        "No carve-out for indemnitee's own negligence — The clause does not provide a carve-out for the indemnitee's own negligence, potentially leading to unfair liability.\n\nREDBLINES:\n\n- REPLACE: \"what constitutes our background IP\" WITH: \"all intellectual property developed by the Service Provider prior to the commencement of this Agreement\"\n- REPLACE: \"any event or circumstance beyond the reasonable control of a Party\" WITH: \"acts of God, war, terrorism, riots, civil commotion, fire, flood, earthquake, epidemic, governmental action, labor disputes, or failure of third-party suppliers or utilities\"\n- REPLACE: None (clause does not contain language that can be improved)"
+      ],
+      "redline_suggestion": "",
+      "reasoning": "The Definations clause contains several issues that require attention. The lack of clarity on \"Background IP\" could lead to disputes over ownership and control. The broad scope of Force Majeure Event protection may result in excessive delays and disruptions. However, the absence of a carve-out for indemnitee's own negligence is not an issue in this clause. To address these concerns, specific redlines are provided to improve clarity and specificity.",
+      "original_text": "For the purposes of this Agreement, the following terms shall have the meanings\nset forth below:\n2.1 \"Acceptance Criteria\" means the standards and specifications set forth\nin Section 6.2 against which the Deliverables shall be evaluated for acceptance\nby the Client.\n\n2.2 \"Aﬀiliate\" means, with respect to any Person, any other Person that\ndirectly or indirectly, through one or more intermediaries, controls, is controlled\nby, or is under common control with, such Person. For these purposes, \"contr"
+    },
+    {
+      "clause_id": "clause_007",
+      "number": "3",
+      "heading": "SCOPE OF SERVICES",
+      "clause_type": "confidentiality",
+      "risk_level": "LOW",
+      "issues": [
+        "Perpetual confidentiality obligation without clear termination conditions. — If signed as-is, the Service Provider may be obligated to maintain confidentiality indefinitely, potentially causing significant financial harm if they fail to comply.",
+        "No exceptions for publicly available information. — This clause may stifle innovation or disclosure of publicly available information, potentially limiting the Service Provider's ability to provide value to the Client.",
+        "No clear notice periods for termination or changes to the scope of work. — The lack of specific notice periods may lead to disputes over termination or changes to the scope of work, potentially causing delays and additional costs for both parties.",
+        "No clear definition of \"Confidential Information\". — REDBLOCK:\nREPLACE: \nWITH:"
+      ],
+      "redline_suggestion": "",
+      "reasoning": "",
+      "original_text": "3.1 Description of Services\nThe Service Provider shall provide the following\nIT support services to the Client (the \"Services\"):\n3.1.1 Helpdesk Support: Provision of first-level and second-level technical\nsupport to the Client's employees via telephone, email, and remote access tools,\nincluding troubleshooting hardware and software issues, password resets, and\nuser account management.\n3.1.2 System Maintenance: Regular maintenance of the Client's IT systems,\nincluding but not limited to servers, "
+    },
+    {
+      "clause_id": "clause_008",
+      "number": "4",
+      "heading": "TERM",
+      "clause_type": "term_termination",
+      "risk_level": "MEDIUM",
+      "issues": [
+        "Lack of termination for convenience right with adequate notice period. — This clause allows termination without notice, potentially causing harm to one party.",
+        "No cure period specified for material breach. — The lack of a clear cure period may lead to disputes and uncertainty.\n\n**"
+      ],
+      "redline_suggestion": "**\n\nREPLACE: \"[￿] ([￿]) days' prior written notice\"\nWITH: \"30 days written notice\"\n\n- ISSUE: Auto-renewal without adequate notice period.\n  EVIDENCE: None\n  IMPACT: \n\n- ISSUE: Change of control definition lacks clarity.\n  EVIDENCE: \"a change of control\" means (i) the direct or indirect sale, transfer, or other disposition of all or substantially all of the assets of a Party, (ii) the merger, consolidation, or other reorganization of a Party with or into another Person, or (iii) the acquisition o",
+      "reasoning": "[Consistency check: escalated LOW → MEDIUM because another term_termination clause in this contract was rated HIGH. Same clause type, similar language.] **\nThe clause",
+      "original_text": "4.1 Initial Term\nThis Agreement shall commence on the Effective Date and\nshall continue in full force and effect for an initial term of [￿] ([￿]) months (the\n\"Initial Term\"), unless earlier terminated in accordance with the terms of this\nAgreement.\n4.2 Renewal\nThis Agreement shall automatically renew for successive periods\nof [￿] ([￿]) months (each, a \"Renewal Term\"), unless either Party provides\nwritten notice of its intent not to renew this Agreement at least [￿] ([￿]) days\nprior to the expira"
+    },
+    {
+      "clause_id": "clause_009",
+      "number": "5",
+      "heading": "COMPENSATION AND PAYMENT",
+      "clause_type": "payment",
+      "risk_level": "LOW",
+      "issues": [
+        "Lack of clear payment milestones or schedule. — The clause does not specify when payments are due, making it unclear how often invoices should be sent and when they are considered late.",
+        "No interest on late payments for non-payment of fees. — The clause does not specify what happens to late payments, leaving room for interpretation.",
+        "No right to suspend services for non-payment of fees. — The clause does not specify what happens if payments are not made, leaving room for interpretation.",
+        "No clear process for adjusting fees. — The clause does not specify how often or when fees can be adjusted, making it unclear what the process is.",
+        "No clear payment terms for late payments. — The clause does not specify what happens to late payments, leaving room for interpretation.",
+        "No right to set-off without notice. — The clause does not specify what happens if the client fails to pay taxes, leaving room for interpretation.\n\n**RISK_LEVEL:** MEDIUM\n\n**REPLACE/WITH:**\n\n- REPLACE: \"The Client shall pay the Service Provider the following Fees for the Services provided under this Agreement...\"\nWITH: \"The Client shall make payments as specified in Section 5.2 Payment Terms.\"\n \n- REPLACE: \"If any amount due under this Agreement is not paid by the Client within [￿] ([￿]) days after the due date...\"\nWITH: \"If any amount due under this Agreement is not paid by the Client within 30 days after the due date, the Service Provider may...\"\n\n- REPLACE: \"The Fees may be adjusted annually on each anniversary of the Effective Date by an amount not to exceed the percentage increase in the [￿]...\"\nWITH: \"The Service Provider shall provide written notice to the Client at least 12 months prior to any fee adjustment.\"\n\n- REPLACE: \"If any amount due under this Agreement is not paid by the Client within [￿] ([￿]) days after the due date...\"\nWITH: \"If any amount due under this Agreement is not paid by the Client within 30 days after the due date, the Service Provider may...\"\n\n- REPLACE: \"The Client shall be responsible for any penalties, interest, or other charges imposed by any taxing authority as a result of the Client's failure to comply with its tax obligations under this Agreement.\"\nWITH: \"The Client shall pay all Taxes and any applicable penalties or interest.\"\n\n**"
+      ],
+      "redline_suggestion": "",
+      "reasoning": "** The clause contains several issues that need attention. The lack of clear payment milestones or schedule, no interest on late payments for non-payment of fees, and no right to suspend services for non-payment of fees are all concerns. Additionally, the process for adjusting fees is unclear, as well as the payment terms for late payments. Finally, there is a lack of clarity regarding what happens if the client fails to pay taxes. Addressing these issues will help ensure that the contract is fair and clear for both parties.",
+      "original_text": "5.1 Fees\n5.1.1 The Client shall pay the Service Provider the following Fees\nfor the Services provided under this Agreement: - (a) A fixed monthly fee of [￿]\n([￿]) (the \"Monthly Fee\"), payable in advance on the first day of each calendar\nmonth during the Term. - (b) [￿] per hour for any additional services requested\nby the Client that are outside the Scope of Services (the \"Additional Services\nFee\"), payable within [￿] ([￿]) days of receipt of an invoice therefor.\n5.1.2 The Fees set forth in this"
+    },
+    {
+      "clause_id": "clause_010",
+      "number": "6",
+      "heading": "DELIVERABLES AND ACCEPTANCE",
+      "clause_type": "payment",
+      "risk_level": "LOW",
+      "issues": [
+        "Lack of clear payment milestones or schedule. — The clause does not specify when payments are due, which could lead to confusion and disputes.",
+        "No late payment interest clause.",
+        "Insufficient notice period for non-payment. — The clause does not specify a minimum notice period for non-payment, which could lead to disputes.",
+        "Client right to set-off without notice. — **REDSLINE:**\n\n- REPLACE: \"The Service Provider shall provide the Deliverables to the Client in such form and manner as may be reasonably requested by the Client\"\nWITH: \"The Service Provider shall provide the Deliverables to the Client within 30 days of delivery, with payments due within 30 days of receipt.\"\n- REPLACE: None\n- REPLACE: \"If the Client notifies the Service Provider in writing of any non-conformity or defect in the Deliverables within the Acceptance Period\"\nWITH: \"If the Client notifies the Service Provider in writing of any non-conformity or defect in the Deliverables at least 30 days prior to the due date, the Service Provider shall, at its own expense, use commercially reasonable efforts to correct such non-conformity or defect and resubmit the Deliverables to the Client within 30 Business Days.\"\n- REPLACE: None\n**"
+      ],
+      "redline_suggestion": "",
+      "reasoning": "** The identified issues are related to payment terms, notice periods, and dispute resolution. To address these concerns, specific changes have been suggested to improve clarity and fairness in the contract.",
+      "original_text": "6.1 Deliverables\nThe Service Provider shall provide the following Deliver-\nables to the Client in connection with the performance of the Services: - (a)\nmonthly reports detailing the performance of the Services against the Service\nLevels (the \"Monthly Reports\"); - (b) incident reports for any Priority 1\n\nor Priority 2 issues, including a description of the issue, the steps taken to\nresolve it, and the root cause analysis (the \"Incident Reports\"); - (c) any\nsoftware, documentation, or other mater"
+    },
+    {
+      "clause_id": "clause_011",
+      "number": "7",
+      "heading": "OBLIGATIONS OF SERVICE PROVIDER",
+      "clause_type": "term_termination",
+      "risk_level": "HIGH",
+      "issues": [
+        "Lack of termination for convenience right — If signed as-is, the Service Provider can only terminate for cause or upon request of the Client.",
+        "No adequate notice period for termination — The clause does not specify a minimum notice period for termination, which could lead to disputes.",
+        "No auto-renewal provision — This clause does not address auto-renewal, which is a common practice in service contracts.\n\n**"
+      ],
+      "redline_suggestion": "**\n- REPLACE: \"The Service Provider shall perform the Services\"\nWITH: \"The Service Provider may terminate the Services upon written notice of at least 60 days\"\n\n**",
+      "reasoning": "**\nThe contract lacks essential provisions for termination, including a termination for convenience right and an adequate notice period. While auto-renewal is not explicitly mentioned, it is a common practice in service contracts that should be addressed to ensure fairness and predictability. The proposed redline addresses the lack of termination for convenience and provides a minimum notice period, which should mitigate potential disputes.",
+      "original_text": "7.1 Performance Standards\nThe Service Provider shall perform the Ser-\nvices: - (a) in a professional and workmanlike manner; - (b) in accordance with\nthe Scope of Services and the Service Levels; - (c) in compliance with all appli-\ncable laws, regulations, and industry standards; and - (d) using personnel with\nthe necessary skills, qualifications, and experience to perform the Services.\n7.2 Resources\nThe Service Provider shall provide all resources, including\npersonnel, equipment, materials, and"
+    },
+    {
+      "clause_id": "clause_012",
+      "number": "8",
+      "heading": "OBLIGATIONS OF CLIENT",
+      "clause_type": "general",
+      "risk_level": "LOW",
+      "issues": [
+        "One-sided indemnification only against us — If signed as-is, the Service Provider may not be required to indemnify the Client in case of its own breach or negligence.",
+        "Indemnification for third-party claims without limitation",
+        "No carve-out for indemnitee's own negligence — The clause does not explicitly exclude the Client's own negligence from indemnification, which could lead to unintended consequences.",
+        "Lack of clear definition of data controller vs processor roles",
+        "No prompt notice obligation for claims arising from the Service Provider's acts — The clause does not specify a time frame for providing prompt notice, which could lead to delays in addressing potential issues.",
+        "Unlimited data retention — **REPLACE/WITH:**\n\n- REPLACE: \"8.1 Cooperation\"\nWITH: \"The Client shall cooperate with the Service Provider in the performance of the Services and shall provide the Service Provider with such information, access, and assistance as may be reasonably required to enable the Service Provider to perform the Services in accordance with this Agreement.\"\n- REPLACE: None\nWITH: No changes needed\n\n**"
+      ],
+      "redline_suggestion": "",
+      "reasoning": "**\nThe identified issues highlight areas where the clause could be improved for clarity and fairness. The one-sided indemnification clause is a concern, as it may not provide adequate protection for the Client. The lack of clear definition of data controller vs processor roles also raises red flags. Additionally, the absence of a prompt notice obligation for claims arising from the Service Provider's acts could lead to delays in addressing potential issues. However, the current clause does not explicitly exclude the Client's own negligence from indemnification, which is a notable omission.",
+      "original_text": "8.1 Cooperation\nThe Client shall cooperate with the Service Provider in the\nperformance of the Services and shall provide the Service Provider with such\ninformation, access, and assistance as may be reasonably required to enable the\nService Provider to perform the Services in accordance with this Agreement.\n8.2 Information and Access\nThe Client shall provide the Service Provider\nwith: - (a) access to the Client's IT systems, facilities, and personnel as may be\nreasonably required for the perform"
+    },
+    {
+      "clause_id": "clause_013",
+      "number": "9",
+      "heading": "REPRESENTATIONS AND WARRANTIES",
+      "clause_type": "warranties",
+      "risk_level": "MEDIUM",
+      "issues": [
+        "Lack of mutual indemnification for claims arising from the Service Provider's own acts. — If signed as-is, the Client may not be able to recover damages if the Service Provider breaches its obligations.",
+        "No carve-out for the Service Provider's own negligence. — This could lead to the Service Provider being held liable for its own negligence, potentially resulting in significant financial losses.",
+        "No requirement for prompt notice of claims. — (No concrete consequence if signed as-is)\n\n**"
+      ],
+      "redline_suggestion": "**\n\n- REPLACE: \"The Services will be performed in a professional and workmanlike manner and in accordance with the Scope of Services and the Service Levels.\"\nWITH: \"The Service Provider has the necessary expertise, experience, and resources to perform the Services in accordance with this Agreement.\"\n\n- REPLACE: \"The Deliverables will be free from material defects and will conform to the Acceptance Criteria.\"\nWITH: \"The Deliverables will be free from material defects and will conform to the Accep",
+      "reasoning": "[Consistency check: escalated LOW → MEDIUM because another warranties clause in this contract was rated HIGH. Same clause type, similar language.] **\nThe current clause lacks mutual indemnification for claims arising from the Service Provider's own acts, which could leave the Client vulnerable. Additionally, there is no carve-out for the Service Provider's own negligence, which could lead to significant financial losses. The proposed redlines address these issues by adding a requirement for prompt notice of claims and carving out the Service Provider's own negligence.",
+      "original_text": "Each Party represents and warrants to the other Party that, as of the Effective\nDate and throughout the Term:\n9.1 Authority: It has the full power and authority to enter into this Agreement\nand to perform its obligations hereunder.\n9.2 Enforceability: This Agreement constitutes a legal, valid, and binding\nobligation of such Party, enforceable against such Party in accordance with its\nterms.\n9.3 No Conflict: The execution, delivery, and performance of this Agreement\ndo not and will not conflict w"
+    },
+    {
+      "clause_id": "clause_014",
+      "number": "",
+      "heading": "EXCEPT AS EXPRESSLY SET FORTH IN THIS SEC-",
+      "clause_type": "warranties",
+      "risk_level": "HIGH",
+      "issues": [
+        "Lack of mutual indemnification for third-party claims — If signed as-is, the party that is not indemnifying may be liable for damages arising from third-party claims without limitation.",
+        "No carve-out for indemnitee's own negligence — REJECT IF CONTRACT CONTAINS:\n  - One-sided indemnification only against us\n  - Indemnification for third-party claims without limitation\n  - No carve-out for indemnitee's own negligence"
+      ],
+      "redline_suggestion": "REPLACE: \"NEITHER PARTY MAKES ANY OTHER REPRESENTATIONS OR WARRANTIES\"\nWITH: \"Neither party makes any other representations or warranties, except as expressly set forth in this Section 9.\"",
+      "reasoning": "The clause lacks mutual indemnification for third-party claims, which could leave one party exposed to unlimited liability. The absence of a carve-out for the indemnitee's own negligence also raises concerns about fairness and potential abuse. While the clause does not contain one-sided indemnification or lack of interest on late payments, these issues are already addressed in the playbook.",
+      "original_text": "TION 9, NEITHER PARTY MAKES ANY OTHER REPRESENTATIONS OR"
+    },
+    {
+      "clause_id": "clause_018",
+      "number": "",
+      "heading": "TICULAR PURPOSE, TITLE, NON-INFRINGEMENT, OR QUIET ENJOY-",
+      "clause_type": "warranties",
+      "risk_level": "HIGH",
+      "issues": [
+        "Lack of clear definition of data controller vs processor roles — This clause may lead to unclear responsibilities and potential disputes between the parties.",
+        "Unlimited data retention without specified conditions or limitations",
+        "No breach notification obligation for data breaches — This clause may leave one party vulnerable to data breaches and lack of prompt response.",
+        "One-sided indemnification only against the Service Provider",
+        "Indemnification for third-party claims without limitation — REDBLINES:\n\nREPLACE: \"THE SERVICE PROVIDER DOES NOT WARRANT THAT THE\"\nWITH: \"The Service Provider warrants that it will process the Personal Data in accordance with applicable data protection laws, including GDPR and CCPA.\"\n- REPLACE: \"None\"\nWITH: \"for a period of [12 months] from the Effective Date\"\n- REPLACE: \"None\"\nWITH: \"in writing within [30 days] of discovery\"\n- REPLACE: None\nWITH: \"mutual indemnification for claims arising from either party's own acts or negligence\"\n- REPLACE: None\nWITH: \"and shall cooperate reasonably with the other party in defending against any third-party claims\""
+      ],
+      "redline_suggestion": "",
+      "reasoning": "The clause lacks a clear definition of data controller vs processor roles, which may lead to disputes. Additionally, the lack of specified conditions for data retention and breach notification obligations creates concerns about the parties' responsibilities. The one-sided indemnification and lack of limitation on third-party claims also raise red flags. However, the mutual indemnification provision is acceptable with some modifications.",
+      "original_text": "MENT. THE SERVICE PROVIDER DOES NOT WARRANT THAT THE"
+    },
+    {
+      "clause_id": "clause_021",
+      "number": "10",
+      "heading": "CONFIDENTIALITY",
+      "clause_type": "confidentiality",
+      "risk_level": "LOW",
+      "issues": [
+        "** Lack of clear definition for \"marked or identified\" as a requirement for confidentiality. — This clause may allow confidential information to be shared without proper marking, potentially undermining its protection.\n\n- **ISSUE:** Unclear timeframe for \"described in writing\" as a requirement for confidentiality.\n  EVIDENCE: \"- (b) is described in writing as confidential\n  within [￿] ([￿]) days after disclosure;\"\n  IMPACT: The clause's reliance on a specific, unspecified timeframe may lead to confusion and inconsistent application.\n\n- **ISSUE:** No clear obligation for the Receiving Party to return or destroy confidential information upon termination.\n  EVIDENCE: \"and that: ...\"\n  IMPACT: This omission may leave the Receiving Party with an unclear duty to protect confidential information after the agreement terminates.\n\n**"
+      ],
+      "redline_suggestion": "**\n\n- REPLACE: \"- (a) is marked or identified as con-\n  fidential at the time of disclosure;\"\nWITH: \"marked or clearly identified as confidential at the time of disclosure\"\n- REPLACE: \"- (b) is described in writing as confidential\n  within [￿] ([￿]) days after disclosure;\"\nWITH: \"described in writing as confidential within 30 days after disclosure\"\n- REPLACE: \"and that:\"\nWITH: \"provided the Receiving Party returns or destroys all confidential information upon termination\"\n\n**",
+      "reasoning": "** The current clause contains several issues that could lead to confusion, inconsistent application, and inadequate protection of confidential information. Addressing these concerns through clear definitions, specific timeframes, and obligations for return and destruction will improve the overall effectiveness of the confidentiality provision.",
+      "original_text": "10.1 Definition of Confidential Information\n\"Confidential Informa-\ntion\" means any information, whether oral, written, electronic, or in any other\nform, that is disclosed by one Party (the \"Disclosing Party\") to the other\nParty (the \"Receiving Party\") and that: - (a) is marked or identified as con-\nfidential at the time of disclosure; - (b) is described in writing as confidential\nwithin [￿] ([￿]) days after disclosure;\n==============================================================\n￿NEGOTIATION I"
+    }
+  ]
+}
