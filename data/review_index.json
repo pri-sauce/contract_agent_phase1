@@ -34,5 +34,23 @@
     "medium_risk_count": 3,
     "low_risk_count": 7,
     "json_path": "C:\\Users\\KIIT01\\Documents\\office\\contract_agent\\data\\reviews\\contract_2026-03-02.json"
+  },
+  "contract_2026-03-03": {
+    "contract_id": "contract_2026-03-03",
+    "filename": "contract.pdf",
+    "reviewed_at": "2026-03-03T14:28:33.398330",
+    "overall_risk": "HIGH",
+    "recommendation": "Negotiate before signing",
+    "contract_type": "MSA (Master Service Agreement)",
+    "parties": [
+      "Company A",
+      "Company B"
+    ],
+    "governing_law": "State/Country",
+    "total_clauses": 16,
+    "high_risk_count": 9,
+    "medium_risk_count": 2,
+    "low_risk_count": 5,
+    "json_path": "C:\\Users\\KIIT01\\Documents\\office\\contract_agent\\data\\reviews\\contract_2026-03-03.json"
   }
 }

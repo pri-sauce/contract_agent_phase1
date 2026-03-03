@@ -319,3 +319,30 @@ prompt
 2026-03-02 22:05:17.395 | INFO     | utils.report_exporter:export_markdown:315 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\contract_2026-03-02.md
 2026-03-02 22:05:17.401 | INFO     | utils.report_exporter:export_json:239 - JSON report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\contract_2026-03-02.json
 2026-03-02 22:05:34.458 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 16 clauses from contract contract_2026-03-02
+2026-03-03 13:42:25.409 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-03 13:42:25.449 | INFO     | ingestion.parser:parse:51 - Parsing contract.pdf (.pdf)
+2026-03-03 13:42:26.157 | INFO     | ingestion.segmenter:segment:122 - Segmenting 'contract.pdf' (4168 words)
+2026-03-03 13:42:26.163 | SUCCESS  | ingestion.segmenter:segment:142 - Segmented into 16 clauses
+2026-03-03 13:42:26.168 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-03 13:43:39.306 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:45:36.932 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:46:50.925 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:48:17.760 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:49:50.545 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:51:46.232 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 13:56:56.638 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:01:10.362 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:06:18.406 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:10:13.591 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:14:16.205 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:17:17.040 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:20:02.236 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:22:55.485 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:24:07.345 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:25:39.963 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-03 14:27:13.147 | DEBUG    | core.review_pipeline:_resolve_contradictions:390 - Escalated clause_008 (term_termination): LOW → MEDIUM
+2026-03-03 14:27:13.148 | DEBUG    | core.review_pipeline:_resolve_contradictions:390 - Escalated clause_013 (warranties): LOW → MEDIUM
+2026-03-03 14:27:13.149 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-03-03 14:28:33.405 | INFO     | utils.report_exporter:export_markdown:520 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\contract_2026-03-03.md
+2026-03-03 14:28:33.408 | INFO     | utils.report_exporter:export_json:435 - JSON report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\contract_2026-03-03.json
+2026-03-03 14:28:49.754 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 16 clauses from contract contract_2026-03-03
