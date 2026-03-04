@@ -1,0 +1,103 @@
+**NON-DISCLOSURE AGREEMENT**
+
+
+THIS AGREEMENT, made this 4th day of March, 2026, by and between:
+
+
+ABC, a company incorporated under the laws of India, having its principal place of business at 123 Main St, India, with an office address of (contact@acme.com), and (555) 123-4567 as its primary contact number (hereinafter referred to as "Disclosing Party"), and
+
+XYZ, an individual who shall be employed as a Senior Software Engineer in the Product Development Department, reporting to the Engineering Manager, of said company, having an office address at 345 Main St, India, with (contact@acme.com) and (555) 123-8796 as its contact information (hereinafter referred to as "Receiving Party"),
+
+
+(RECITALS)
+
+
+WHEREAS, the Disclosing Party desires to share proprietary information with the Receiving Party for the purposes of employment, and the Receiving Party agrees to keep such information confidential,
+
+
+NOW, THEREFORE, in consideration of the mutual covenants contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+
+1. **Definitions**: (If needed, include definitions for key terms used in the agreement.)
+
+
+2. **Term and Termination**: (Insert standard clauses regarding the term of the agreement and termination conditions.)
+
+
+3.01 **Effective Date and Term**: This Agreement becomes effective on the Commencement Date and shall remain in effect for a period of two (2) years from the Effective Date, unless terminated earlier in accordance with the provisions of this Agreement.
+
+
+3.02 **Notice**: Either party may terminate this Agreement by providing written notice to the other party's address specified herein.
+
+
+4.01 **Confidentiality**: (Insert standard confidentiality clause.)
+
+
+5.01 **Non-Solicitation**: The Receiving Party agrees not to solicit company clients or employees for a period of 12 months after leaving the Disclosing Party.
+
+
+6.01 **Governing Law**: This Agreement will be governed by and construed in accordance with the laws of India, without giving effect to any choice or conflict of law provisions or rules that would result in the application of the law of any other jurisdiction.
+
+
+7.01 **Dispute Resolution**: Any disputes arising out of or relating to this Agreement shall be resolved through binding arbitration under the Arbitration and Conciliation Act, 1996, and the Receiving Party hereby submits to the jurisdiction of the Arbitral Tribunal constituted pursuant to said Act.
+
+
+8.01 **Payment and Financial Terms**: (Insert detailed employment and compensation terms as specified.)
+
+
+9.01 **Intellectual Property**: All works created by the Receiving Party during their employment are the exclusive property of the Disclosing Party.
+
+
+10.01 **Code of Conduct**: (Insert clause regarding compliance with company policies and ethical standards.)
+
+
+11.01 **Entire Agreement**: This Agreement, including the schedules and exhibits attached hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior discussions, understandings, and agreements, both written and oral.
+
+
+12.01 **Amendment and Waiver**: No amendment or modification to this Agreement shall be effective without the written consent of both parties.
+
+
+13.01 **Severability**: If any term or provision of this Agreement is held invalid or unenforceable, the remaining terms shall remain in full force and effect.
+
+
+14.01 **Notices**: (Insert standard notice provision.)
+
+
+15.01 **Acknowledgement and Acceptance**:
+
+
+I, [Employee's Name], hereby acknowledge that I have read, understood, and agree to the terms and conditions of this Non-Disclosure Agreement as dated [Effective Date], and I have received the full understanding and information as set forth herein. I accept all the terms, conditions, and provisions of this Agreement.
+
+
+Employee's Signature: _ Date: _
+
+
+I, [Employer's Name], as the authorized representative of ABC, hereby agree to the terms and conditions of this Non-Disclosure Agreement as dated [Effective Date], and I have received the full understanding and information as set forth herein.
+
+
+Employer's Signature: _ Date: _
+
+
+This Non-Disclosure Agreement has been drafted with a comprehensive understanding of the terms and conditions relevant to the employment of a Senior Software Engineer by ABC. Both parties have had the opportunity to review and seek legal counsel where necessary. This agreement is signed and dated on the [Effective Date], and the undersigned parties have the right to seek further legal advice before entering into this agreement.
+
+
+(Include any additional clauses as requested or necessary for clarity and completeness.)
+
+
+IN WITNESS WHEREOF, the parties have executed this Non-Disclosure Agreement on the day and year first above written.
+
+
+**Employee Signature Page:**
+
+Employee's Name: _
+
+
+**Employer Signature Page:**
+
+Employer's Name: [Name of Employer's Representative]
+
+
+(Additional signature pages as required.)
+
+
+[This document has been reviewed by the legal counsel of [Legal Firm Name] and is ready for execution and recordation by the parties on [Specific Date].)

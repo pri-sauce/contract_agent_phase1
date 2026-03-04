@@ -368,3 +368,61 @@ prompt
 2026-03-03 21:36:25.180 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
 2026-03-03 21:37:09.359 | INFO     | utils.report_exporter:export_markdown:410 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-03.md
 2026-03-03 21:37:15.974 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 2 clauses from contract Sirena_AI_Systems_NDA_Priyansh_2026-03-03
+2026-03-04 13:01:41.426 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-04 13:01:41.481 | INFO     | ingestion.parser:parse:51 - Parsing Sirena_AI_Systems_NDA_Priyansh.pdf (.pdf)
+2026-03-04 13:01:42.121 | INFO     | ingestion.segmenter:segment:122 - Segmenting 'Sirena_AI_Systems_NDA_Priyansh.pdf' (1190 words)
+2026-03-04 13:01:42.124 | SUCCESS  | ingestion.segmenter:segment:142 - Segmented into 2 clauses
+2026-03-04 13:01:42.126 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 13:03:17.993 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 13:08:16.709 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 13:10:57.962 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-03-04 13:11:44.376 | INFO     | utils.report_exporter:export_markdown:503 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.md
+2026-03-04 13:11:44.378 | INFO     | utils.report_exporter:export_json:421 - JSON report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.json
+2026-03-04 13:11:50.622 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 2 clauses from contract Sirena_AI_Systems_NDA_Priyansh_2026-03-04
+2026-03-04 13:21:21.543 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-04 13:21:21.574 | INFO     | ingestion.parser:parse:51 - Parsing Sirena_AI_Systems_NDA_Priyansh.pdf (.pdf)
+2026-03-04 13:21:21.677 | INFO     | ingestion.segmenter:segment:122 - Segmenting 'Sirena_AI_Systems_NDA_Priyansh.pdf' (1190 words)
+2026-03-04 13:21:21.679 | SUCCESS  | ingestion.segmenter:segment:142 - Segmented into 2 clauses
+2026-03-04 13:21:21.682 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 13:22:52.825 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 13:27:54.924 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 13:29:34.112 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-03-04 13:30:20.942 | INFO     | utils.report_exporter:export_markdown:530 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.md
+2026-03-04 13:30:28.149 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 2 clauses from contract Sirena_AI_Systems_NDA_Priyansh_2026-03-04
+2026-03-04 13:56:57.372 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-04 13:56:57.385 | INFO     | ingestion.parser:parse:51 - Parsing Sirena_AI_Systems_NDA_Priyansh.pdf (.pdf)
+2026-03-04 13:56:57.515 | INFO     | ingestion.segmenter:segment:538 - Segmenting 'Sirena_AI_Systems_NDA_Priyansh.pdf' (1190 words)
+2026-03-04 13:56:57.517 | SUCCESS  | ingestion.segmenter:segment:558 - Segmented into 0 clauses
+2026-03-04 13:56:57.521 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 13:58:58.238 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-03-04 14:02:25.099 | INFO     | utils.report_exporter:export_markdown:530 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.md
+2026-03-04 14:08:41.603 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-04 14:08:41.636 | INFO     | ingestion.parser:parse:277 - Parsing Sirena_AI_Systems_NDA_Priyansh.pdf (.pdf)
+2026-03-04 14:08:42.056 | INFO     | ingestion.segmenter:segment:538 - Segmenting 'Sirena_AI_Systems_NDA_Priyansh.pdf' (1192 words)
+2026-03-04 14:08:42.071 | SUCCESS  | ingestion.segmenter:segment:558 - Segmented into 6 clauses
+2026-03-04 14:08:42.079 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:10:07.008 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:11:38.048 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:15:03.158 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:15:46.050 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:18:39.280 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:19:21.524 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:20:44.274 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:21:18.762 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:23:32.177 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:23:45.035 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:25:39.286 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:26:49.134 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1
+2026-03-04 14:28:35.637 | DEBUG    | core.review_pipeline:_resolve_contradictions:1049 - Escalated clause_002 (confidentiality): LOW → MEDIUM
+2026-03-04 14:28:35.637 | DEBUG    | core.review_pipeline:_resolve_contradictions:1049 - Escalated clause_003 (confidentiality): LOW → MEDIUM
+2026-03-04 14:28:35.637 | DEBUG    | core.review_pipeline:_resolve_contradictions:1049 - Escalated clause_004 (confidentiality): LOW → MEDIUM
+2026-03-04 14:28:35.638 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.2
+2026-03-04 14:29:40.281 | INFO     | utils.report_exporter:export_markdown:530 - Markdown report saved: C:\Users\KIIT01\Documents\office\contract_agent\data\reviews\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.md
+2026-03-04 14:29:43.997 | INFO     | rag.knowledge_base:add_contract_clauses:219 - Stored 6 clauses from contract Sirena_AI_Systems_NDA_Priyansh_2026-03-04
+2026-03-04 14:46:29.968 | INFO     | rag.knowledge_base:__init__:76 - Knowledge base initialized at C:\Users\KIIT01\Documents\office\contract_agent\data\knowledge_base\chromadb
+2026-03-04 14:46:29.978 | INFO     | ingestion.parser:parse:277 - Parsing contract_2026-03-04.txt (.txt)
+2026-03-04 14:46:29.983 | INFO     | ingestion.segmenter:segment:538 - Segmenting 'contract_2026-03-04.txt' (752 words)
+2026-03-04 14:46:29.984 | SUCCESS  | ingestion.segmenter:segment:558 - Segmented into 1 clauses
+2026-03-04 14:46:29.987 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:48:37.912 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.0
+2026-03-04 14:51:43.259 | DEBUG    | core.llm:generate:76 - Generating with llama3.2:3b | temp=0.1

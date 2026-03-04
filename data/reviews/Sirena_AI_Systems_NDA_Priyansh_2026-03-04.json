@@ -1,0 +1,86 @@
+{
+  "filename": "Sirena_AI_Systems_NDA_Priyansh.pdf",
+  "reviewed_at": "2026-03-04T13:11:44.362875",
+  "overall_risk": "HIGH",
+  "recommendation": "Negotiate before signing",
+  "metadata": {
+    "contract_type": "NDA",
+    "parties": [
+      "SIRENA AI SYSTEMS PRIVATE LIMITED",
+      "the Disclosing Party"
+    ],
+    "effective_date": null,
+    "expiration_date": null,
+    "governing_law": "null",
+    "contract_value": "null",
+    "auto_renewal": null,
+    "notice_period_days": null
+  },
+  "summary": {
+    "total_clauses": 2,
+    "high_risk": 1,
+    "medium_risk": 0,
+    "low_risk": 1,
+    "acceptable": 0
+  },
+  "executive_summary": "**Executive Summary: SIRENA AI SYSTEMS PRIVATE LIMITED Non-Disclosure Agreement (NDA)**\n\nOur review of the Sirena AI Systems Private Limited Non-Disclosure Agreement (NDA) has identified a high-risk issue that warrants attention. The contract's one-sided indemnification clause leaves the company exposed to claims from the Disclosing Party, as it only provides protection against third-party claims without offering mutual indemnification. This imbalance in risk allocation poses a significant financial and legal risk if signed as-is.\n\nUpon reviewing the entire agreement, we found no medium-risk issues that require negotiation before signing. However, our analysis highlights the need for careful consideration of the indemnification clause to ensure fair risk distribution between the parties.\n\nTo address this high-risk issue, we recommend negotiating the following changes:\n\n* Add mutual indemnification to protect both parties against claims arising from the disclosure.\n* Specify the scope and limits of each party's liability under the indemnification clause.\n\nGiven the identified risks, we advise that the company negotiates these changes before signing the agreement. This will ensure a more balanced risk allocation and provide adequate protection for Sirena AI Systems Private Limited.",
+  "clause_reviews": [
+    {
+      "clause_id": "clause_002",
+      "number": "MUTUAL CONFIDENTIALITY AND NONDISCLOSURE AGREEMENT",
+      "heading": "Each undersigned party (the \"Receiving Party\") understands that the other party (the",
+      "clause_type": "payment",
+      "risk_level": "LOW",
+      "page_num": null,
+      "issues": [],
+      "evidence_quotes": [],
+      "redlines": [],
+      "new_clauses": [],
+      "redline_suggestion": "",
+      "reasoning": "",
+      "original_text": "Each undersigned party (the \"Receiving Party\") understands that the other party (the \n\"Disclosing Party\"), through itself or its authorized representatives, has disclosed or may disclose \ninformation relating to the Disclosing Party's business (including, without limitation, business terms, \nbusiness plans, financial statements, financial terms, financing plans, products, formulas, processes, \nprocedures, operations manuals, customer contracts, databases, designs, specifications, intellectual \np"
+    },
+    {
+      "clause_id": "clause_003",
+      "number": "SIRENA AI SYSTEMS PRIVATE LIMITED",
+      "heading": "By",
+      "clause_type": "general",
+      "risk_level": "HIGH",
+      "page_num": null,
+      "issues": [
+        "One-sided indemnification only against us — The clause does not provide mutual indemnification, leaving the company exposed to claims from the other party.",
+        "Indemnification for third-party claims without limitation — The clause does not limit indemnification to only claims arising from the indemnifying party's own acts, potentially exposing the company to unlimited liability.",
+        "No carve-out for indemnitee's own negligence — The clause does not provide a carve-out for the indemnitee's own negligence, which could lead to double liability."
+      ],
+      "evidence_quotes": [
+        "By [Name: Priyansh Srivastava] Title: Intern - AI\"",
+        "Indemnification for third-party claims\"",
+        "Mutual indemnification limited to each party's own breach or negligence.\""
+      ],
+      "redlines": [
+        {
+          "replace": "By [Name: Priyansh Srivastava] Title: Intern - AI",
+          "with": "[NAME] Title: [TITLE]"
+        },
+        {
+          "replace": "REPLACE: \"Indemnification for third-party claims",
+          "with": "Indemnification limited to claims arising from indemnifying party's own acts"
+        },
+        {
+          "replace": "REPLACE: \"Mutual indemnification limited to each party's own breach or negligence.",
+          "with": "Mutual indemnification limited to each party's own breach or negligence, excluding the indemnitee's own negligence.\"\n\nNEW_CLAUSE:\nTITLE: \"Data Breach Notification Requirements\"\nREASON: The clause is missing a clear requirement for data breach notification.\nTEXT: \"[We will notify you promptly in the event of a data breach, and cooperate with your reasonable requests to investigate and mitigate the breach.]"
+        }
+      ],
+      "new_clauses": [
+        {
+          "title": "Data Breach Notification Requirements",
+          "reason": "The clause is missing a clear requirement for data breach notification.",
+          "text": "[We will notify you promptly in the event of a data breach, and cooperate with your reasonable requests to investigate and mitigate the breach.]"
+        }
+      ],
+      "redline_suggestion": "REPLACE: \"By [Name: Priyansh Srivastava] Title: Intern - AI\"\nWITH: \"[NAME] Title: [TITLE]\"\n\nREPLACE:\nREPLACE: \"Indemnification for third-party claims\"\nWITH: \"Indemnification limited to claims arising from indemnifying party's own acts\"\n\nREPLACE:\nREPLACE: \"Mutual indemnification limited to each party's own breach or negligence.\"\nWITH: \"Mutual indemnification limited to each party's own breach or negligence, excluding the indemnitee's own negligence.\"\n\nNEW_CLAUSE:\nTITLE: \"Data Breach Notification ",
+      "reasoning": "The contract contains several high-risk issues that need immediate attention. The one-sided indemnification clause leaves the company exposed to claims from the other party, while the lack of limitation on third-party claims could result in unlimited liability. Additionally, the absence of a carve-out for the indemnitee's own negligence could lead to double liability. To address these concerns, we recommend replacing the existing language with market-standard fixes and adding a new clause for data breach notification requirements.",
+      "original_text": "By \nName: Hariharan Bojan \nTitle: CEO \n \n \nBy \nName: Priyansh Srivastava \nTitle: Intern - AI \n \n \n \n \nSirena AI Systems Private Limited \nAddress : Sirena R&D Center, GITAM University,NH 207, Nagadenehalli, taluk, Doddaballapura, Bengaluru, Karnataka 562163 \nWebsite : www.sirenatech.com | Email : info@sirenatech.com | CIN : U26209KA2025PTC212465"
+    }
+  ]
+}

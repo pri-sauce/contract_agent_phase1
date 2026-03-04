@@ -70,5 +70,23 @@
     "medium_risk_count": 0,
     "low_risk_count": 1,
     "json_path": "C:\\Users\\KIIT01\\Documents\\office\\contract_agent\\data\\reviews\\Sirena_AI_Systems_NDA_Priyansh_2026-03-03.json"
+  },
+  "Sirena_AI_Systems_NDA_Priyansh_2026-03-04": {
+    "contract_id": "Sirena_AI_Systems_NDA_Priyansh_2026-03-04",
+    "filename": "Sirena_AI_Systems_NDA_Priyansh.pdf",
+    "reviewed_at": "2026-03-04T14:29:40.273125",
+    "overall_risk": "HIGH",
+    "recommendation": "Negotiate before signing",
+    "contract_type": "NDA",
+    "parties": [
+      "SIRENA AI SYSTEMS PRIVATE LIMITED",
+      "the Disclosing Party"
+    ],
+    "governing_law": "null",
+    "total_clauses": 6,
+    "high_risk_count": 2,
+    "medium_risk_count": 3,
+    "low_risk_count": 1,
+    "json_path": "C:\\Users\\KIIT01\\Documents\\office\\contract_agent\\data\\reviews\\Sirena_AI_Systems_NDA_Priyansh_2026-03-04.json"
   }
 }
